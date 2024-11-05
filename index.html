@@ -13,11 +13,25 @@
         numbers[0] = 23;
         numbers[1] = 11;
         numbers[2] = 5;
-        numbers[0] = jhjhhgdf;
+        numbers[0] = 'jhjhhgdf';
 
         document.write(numbers);
-        document.write('<p>dlugosc tablicy: '+ numbers.length + '</p>')
-        document.write('<p>dlugosc tablicy: ${numbers.length]</p>')
+        document.write('<p>dlugosc tablicy: '+ numbers.length + '</p>');
+        document.write(`<p>dlugosc tablicy: ${numbers.length}</p>`);
+
+        document.write(`<p>dodaje element na koncu tablicy: ${numbers[numbers.length]=20} </p>`);
+        document.write(`<p>moja tablica ${numbers}</p>`);
+        
+        document.write(`<p>usuwam ostatni element tablicy czyli : ${numbers.pop()} </p>`);
+        document.write(`<p>usuwam pierwszy element tablicy czyli : ${numbers.shift()} </p>`);
+        document.write(`<p>dlugosc tablicy: ${numbers.length}</p>`);
+        document.write(`<p>moja tablica ${numbers}</p>`);
+
+
+        document.write(`<p>dodaje  element na poczatku tablicy ${numbers.unshift(8)} </p>`);
+        document.write(`<p>dodaje  element na koncu tablicy ${numbers.push('jhgaagan')} </p>`);
+        document.write(`<p>dlugosc tablicy: ${numbers.length}</p>`);
+        document.write(`<p>moja tablica ${numbers}</p>`);
 
     </script>
 </body>
